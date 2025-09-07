@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function EndCard() {
   return (
     <section className="w-full py-30 flex justify-center items-center">
@@ -12,10 +14,12 @@ export default function EndCard() {
           Start your learning journey today and join a community of lifelong learners
         </p>
 
-        {/* Button */}
-        <button className="bg-black text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#4A9E8B] transition">
-          Get Started Now
-        </button>
+        <Link
+        to="/membership"
+        className="mt-6 inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg shadow hover:bg-[#56a9a1] transition"
+      >
+        Get Started
+      </Link>
       </div>
     </section>
   );

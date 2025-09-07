@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HeroContent() {
   return (
     <div className="text-center md:text-left">
@@ -12,9 +14,12 @@ export default function HeroContent() {
         Enroll yourself now. Just drop your email-id here and our team will
         contact you with class details.
       </p>
-      <button className="mt-6 px-6 py-3 bg-black text-white font-semibold rounded-lg shadow hover:bg-[#56a9a1] transition">
+      <Link
+        to="/membership"
+        className="mt-6 inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg shadow hover:bg-[#56a9a1] transition"
+      >
         Get Started
-      </button>
+      </Link>
     </div>
   );
 }

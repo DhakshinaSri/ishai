@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function MembershipContent({ imageUrl }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 w-full">
@@ -23,9 +25,12 @@ export default function MembershipContent({ imageUrl }) {
           professionals, and students/job seekers who are passionate about
           learning, career growth, and collaboration.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-lg  hover:bg-teal-500 transition">
-          Get Started
-        </button>
+        <Link
+        to="/membership"
+        className="mt-6 inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg shadow hover:bg-[#56a9a1] transition"
+      >
+        Get Started
+      </Link>
       </div>
     </div>
   );
