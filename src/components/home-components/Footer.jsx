@@ -1,5 +1,6 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { HiLocationMarker, HiMail, HiPhone } from "react-icons/hi";
+import logo from "@assets/logoishai.png";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         <div>
             <a href="#home">
               <img
-                src="\src\assets\logoishai.png"
+                src={logo}
                 alt="Company Logo"
                 className="h-20 md:h-20 w-auto"
               /></a>

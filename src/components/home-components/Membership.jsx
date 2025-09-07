@@ -1,16 +1,17 @@
-import MembershipContent from "./MembershipContent";
-import MembershipCard from "./MembershipCard";
+import MembershipContent from "@components/home-components/MembershipContent";
+import MembershipCard from "@components/home-components/MembershipCard";
 
-import institutionIcon from "../icons/building-office.svg";
-import hrIcon from "../icons/laptop.svg";
-import studentIcon from "../icons/student.svg";
+import institutionIcon from "@icons/building-office.svg";
+import hrIcon from "@icons/laptop.svg";
+import studentIcon from "@icons/student.svg";
+import img from "@assets/membershipimg.png";
 
 export default function Membership({ imageUrl }) {
   return (
     <section className="relative w-full px-10 sm:px-6 md:px-12 lg:px-16 py-16">
       <div className="max-w-7xl mx-auto flex flex-col items-center mb-2 md:mb-8">
         {/* Top: Image + Text */}
-        <MembershipContent imageUrl={imageUrl} />
+        <MembershipContent imageUrl= {img} />
 
         {/* Bottom: Overlapping Rectangle */}
         <div className="relative z-10 -mt-16 md:-mt-30 w-full flex justify-center">

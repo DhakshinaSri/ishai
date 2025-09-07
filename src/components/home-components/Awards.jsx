@@ -1,4 +1,4 @@
-import AwardCard from "./AwardCard";
+import AwardCard from "@components/home-components/AwardCard";
 
 export default function Awards() {
   return (

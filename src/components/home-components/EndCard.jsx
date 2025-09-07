@@ -13,7 +13,7 @@ export default function EndCard() {
         </p>
 
         {/* Button */}
-        <button className="bg-[#65B5A3] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#4A9E8B] transition">
+        <button className="bg-black text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#4A9E8B] transition">
           Get Started Now
         </button>
       </div>

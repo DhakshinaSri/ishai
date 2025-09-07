@@ -23,7 +23,7 @@ export default function MembershipContent({ imageUrl }) {
           professionals, and students/job seekers who are passionate about
           learning, career growth, and collaboration.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
+        <button className="bg-black text-white px-6 py-3 rounded-lg  hover:bg-teal-500 transition">
           Get Started
         </button>
       </div>
