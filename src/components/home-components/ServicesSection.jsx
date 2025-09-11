@@ -13,7 +13,7 @@ export default function ServicesSection() {
   const content = {
     title: "Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "The International Society for Healthcare & AI Innovators (ISHAI) is dedicated to shaping the future of healthcare and artificial intelligence by connecting students, academia, and industry. Through initiatives like ISHAI Student Chapters and the ISHAI Center of Excellence (COE), ISHAI empowers students with knowledge, hands-on experience, and global exposure. These platforms encourage innovation, collaboration, and leadership, preparing the next generation of professionals to drive impactful change in healthcare and AI worldwide.",
     buttonText: "Explore",
   };
 

@@ -1,14 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // tells Tailwind to scan your src folder
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Mulish', 'sans-serif'],
       },
-    }, // you can customize here
+      animation: {
+        "spin-slow": "spin 20s linear infinite", // 20s per rotation
+      },
+    },
   },
   plugins: [],
 };

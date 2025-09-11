@@ -15,8 +15,7 @@ export default function ContactSection() {
             We’d love to hear from you!
           </h2>
           <p className="text-gray-600 mb-6">
-            Whether you have questions about our
-            programs, services, or upcoming events, our team is here to help.
+            At the International Society for Healthcare & AI Innovators (ISHAI), we are always open to collaborations, partnerships, and inquiries from students, professionals, and institutions. Whether you have a question about membership, events, training programs, or industry partnerships, our team is here to assist you.   
           </p>
 
           <div className="space-y-6 text-gray-700">
@@ -25,18 +24,27 @@ export default function ContactSection() {
               <p className="font-bold mb-6 text-gray-500">Reach Us</p>
               <div className="flex items-center space-x-3 mb-4 font-semibold text-black">
                 <Phone className="text-teal-500 w-5 h-5" />
-                <span >+91-XXXXXXXXXX</span>
+                <span >+91-94453 93068</span>
               </div>
               <div className="flex items-center space-x-3 font-semibold text-black">
                 <Mail className="text-teal-500 w-5 h-5" />
                 <div className="flex flex-col">
-                  <span>Email: info@ishai.org</span>
-                  <span>Support Email: support@ishai.org</span>
+                  <span>Email: info@ishai.in</span>
                 </div>
               </div>
             </div>
 
             {/* Office */}
+            <div>
+              <p className="font-bold mb-6 text-gray-500">Our Presence</p>
+              <div className="flex items-start space-x-3 font-semibold text-black">
+                <MapPin className="text-teal-500 w-5 h-5 mt-1" />
+                <div>
+                  <p className="mb-2">Chennai | Erode | Coimbatore | Madurai |<br/> Nagercoil | Trichy | Thiruvananthapuram</p>
+                </div>
+                
+              </div>
+            </div>
             <div>
               <p className="font-bold mb-6 text-gray-500">Our Office</p>
               <div className="flex items-start space-x-3 font-semibold text-black">
@@ -46,8 +54,10 @@ export default function ContactSection() {
                   <p className="mb-2">Saturday: 10:00 AM – 2:00 PM</p>
                   <p>Sunday: Closed</p>
                 </div>
+                
               </div>
             </div>
+            
           </div>
         </div>
 
@@ -74,16 +84,8 @@ export default function ContactSection() {
     id="phone"
     name="phone"
     type="tel"
-    placeholder="Phone Number / WhatsApp Number"
+    placeholder="Phone Number"
     autoComplete="tel"
-    className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-teal-400 focus:outline-none text-black"
-  />
-  <input
-    id="country"
-    name="country"
-    type="text"
-    placeholder="Country"
-    autoComplete="country-name"
     className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-teal-400 focus:outline-none text-black"
   />
   <textarea
@@ -94,19 +96,6 @@ export default function ContactSection() {
     autoComplete="off"
     className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-teal-400 focus:outline-none text-black"
   ></textarea>
-  <select
-    id="enquiryType"
-    name="enquiryType"
-    autoComplete="off"
-    className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-teal-400 focus:outline-none text-black"
-  >
-    <option value="">Enquiry Type</option>
-    <option value="general">General</option>
-    <option value="partner">Partner</option>
-    <option value="programs">Programs</option>
-    <option value="services">Services</option>
-    <option value="support">Support</option>
-  </select>
   <button
     type="submit"
     className="px-6 py-2 mt-5 bg-black text-white rounded-md hover:bg-teal-600 transition"

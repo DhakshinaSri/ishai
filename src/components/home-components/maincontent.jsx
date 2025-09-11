@@ -2,17 +2,15 @@ import { Link } from "react-router-dom";
 
 export default function HeroContent() {
   return (
-    <div className="text-center md:text-left">
-      <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-        <span className="text-[#64BFB6]">Achieve</span> your <br />
-        career goals
-      </h1>
-      <p className="mt-4 text-lg text-black font-semibold">
-        30 Days Money Back Guarantee.
+    <div className="text-center md:text-left mt-3">
+      <h2 className="text-4xl md:text-4xl font-bold text-[#64BFB6] leading-tight">
+        <span className="text-black text-7xl font-semibold">Shaping the Future of</span><br/>Healthcare with AI, Innovation, and Collaboration.
+      </h2>
+      <p className="mt-4 text-xl text-black font-bold">
+        International Society for Healthcare & AI Innovators (ISHAI)
       </p>
       <p className="mt-2 text-gray-600">
-        Enroll yourself now. Just drop your email-id here and our team will
-        contact you with class details.
+        a global non-profit dedicated to connecting academia, industry, and research.
       </p>
       <Link
         to="/membership"

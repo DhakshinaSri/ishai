@@ -20,18 +20,18 @@ export default function Membership({ imageUrl }) {
                           grid grid-cols-1 md:grid-cols-3 gap-8 shadow-lg">
             <MembershipCard
               icon={<img src={institutionIcon} alt="Institutions" className="w-12 h-12" />}
-              title="Institutions"
-              description="Connect with students and professionals, showcase your courses, and build academic partnerships."
+              title="Student Membership"
+              description="For aspiring innovators and researchers – gain access to mentorship, training, and global exposure."
             />
             <MembershipCard
               icon={<img src={hrIcon} alt="HR" className="w-12 h-12" />}
-              title="HR’s / Working Professionals"
-              description="Share expertise, discover talent, and expand your professional network."
+              title="Professional Membership"
+              description="Designed for working professionals – expand your network, collaborate on projects, and stay updated with the latest advancements."
             />
             <MembershipCard
               icon={<img src={studentIcon} alt="Students" className="w-12 h-12" />}
-              title="Students / Job Seekers"
-              description="Access learning resources, connect with mentors, and explore career opportunities."
+              title="Institutional Membership"
+              description="For colleges, universities, hospitals, and research organizations – partner with ISHAI to establish Centers of Excellence, student chapters, and industry-driven programs."
             />
           </div>
         </div>

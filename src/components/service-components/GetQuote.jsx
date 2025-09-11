@@ -1,4 +1,5 @@
-// src/components/service-components/GetQuote.jsx
+import { Link } from "react-router-dom";
+
 export default function GetQuote() {
   return (
     <section className="bg-[#65B5A320] border-t-[6px] border-[#85BF64] py-16 px-6 md:px-12 lg:px-20">     
@@ -13,9 +14,12 @@ export default function GetQuote() {
             Every project is unique, and so are our solutions. Tell us about your needs, 
             and we’ll provide a tailored quote that fits your goals and budget.
           </p>
-          <button className="bg-black text-white font-semibold py-3 px-8 rounded-md shadow hover:bg-[#65B5A3] transition">
+          <Link
+            to="/contact"
+            className="bg-black text-white font-semibold py-3 px-8 rounded-md shadow hover:bg-[#65B5A3] transition inline-block text-center"
+          >
             Get Quote
-          </button>
+          </Link>
         </div>
 
         {/* Right Side - Contact Info */}

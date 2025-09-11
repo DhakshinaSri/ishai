@@ -27,7 +27,7 @@ export default function TrustedSection() {
             Services offered by ISHAI
           </p>
           <p className="mt-3 text-base sm:text-lg lg:text-[16px] font-medium text-gray-600">
-            We provide a wide range of academic, professional, and industry-driven opportunities designed to empower students, faculty, and researchers. From skill development to research collaborations, our services aim to bridge the gap between learning and real-world impact.
+            The International Society for Healthcare & AI Innovators (ISHAI) is committed to shaping the future of healthcare and artificial intelligence by creating strong connections between academia and industry. To bring this vision closer to students, ISHAI supports the establishment of Student Chapters across educational institutions, including engineering, arts & science, allied health sciences, nursing, and physiotherapy colleges.
           </p>
           <button className="mt-10 bg-black text-white py-2 px-6 rounded shadow hover:bg-teal-500 transition">
             Get Started Now

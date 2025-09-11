@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import React from "react";
 import ImageCircle from "./ImageCircle";
 
 // import your images
@@ -14,7 +14,7 @@ import img9 from "@assets/img9.jpg";
 import img10 from "@assets/img10.jpg";
 import img11 from "@assets/img11.jpg";
 
-export default function AboutUs({ title, description, buttonText }) {
+export default function MainSection4() {
   const images = [
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11,
   ];
@@ -22,21 +22,20 @@ export default function AboutUs({ title, description, buttonText }) {
   return (
     <section className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        {/* Left - ImageCircle (second on mobile, first on desktop) */}
-        <div className="flex justify-center order-2 md:order-1">
+        {/* Left - Image Circle */}
+        <div className="flex justify-center">
           <ImageCircle images={images} />
         </div>
 
-        {/* Right - About Us content (first on mobile, second on desktop) */}
-        <div className="flex flex-col text-left max-w-md order-1 md:order-2">
-          <h2 className="text-5xl font-bold mb-4">{title}</h2>
-          <p className="text-gray-600 mb-6">{description}</p>
-          <Link
-            to="/about"
-            className="bg-black text-white py-2 px-6 rounded shadow hover:bg-teal-500 transition w-40 text-center"
-          >
-            {buttonText}
-          </Link>
+        {/* Right - Text */}
+        <div>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">
+            Connect with the World
+          </h1>
+          <p className="text-lg text-gray-600">
+            Showcase your work, share your ideas, and build meaningful
+            connections with a global community of creative professionals.
+          </p>
         </div>
       </div>
     </section>

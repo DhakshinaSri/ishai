@@ -38,8 +38,7 @@ export default function Faqsection() {
         <div className="bg-gradient-to-br from-[#FBE3B280] to-[#64BFB620] rounded-xl p-8 shadow">
           <h3 className="text-xl font-semibold mb-2">Still have a questions?</h3>
           <p className="text-gray-600 mb-4">
-            Can’t find the answer to your question? Send us an email and we’ll
-            get back to you as soon as possible!
+            Reach out to us and let’s work together to shape the future of Healthcare and Artificial Intelligence innovation!
           </p>
           <button
             className="bg-black text-white px-6 py-2 rounded-lg shadow hover:bg-[#64BFB6] transition"
@@ -56,7 +55,7 @@ export default function Faqsection() {
       </div>
 
       {/* Right Section (FAQ Accordion) */}
-      <div className="space-y-4 mt-5">
+      <div className="space-y-4 mt-6">
         {faqs.map((faq, index) => (
           <div
             key={index}

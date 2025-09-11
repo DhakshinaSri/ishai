@@ -1,11 +1,8 @@
-import HeroContent from "@components/home-components/maincontent";
-import HeroImg from "@components/home-components/HeroImg";
-import Partners from "@components/home-components/partners";
+import HeroCarousel from "@components/home-components/HeroCarousel";
 import FeatureCard from "@components/home-components/FeatureCard";
-import ServicesSection from "@components/home-components/ServicesSection";
+import ProductsSection from "@components/home-components/newservice";
 import Membership from "@components/home-components/Membership";
 import AboutUs from "@components/home-components/AboutUs";
-import Testimonials from "@components/home-components/Testimonials";
 import Awards from "@components/home-components/Awards";
 import EndCard from "@components/home-components/EndCard";
 import Footer from "@components/home-components/Footer";
@@ -14,19 +11,21 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-6 md:px-12 lg:px-15 min-h-[80vh] md:min-h-[70vh] pt-38 md:pt-32 gap-6">
-        <div className="flex-1 flex justify-center">
-          <HeroContent />
+      
+        <div>
+          <HeroCarousel />
         </div>
-        <div className="flex-1 flex justify-center">
-          <HeroImg />
-        </div>
-      </section>
+      
 
-      {/* Partners Section */}
-      <div>
-        <Partners />
-      </div>
+      {/* About Us + Testimonials */}
+
+    <AboutUs
+      title="About us"
+      description="International Society for Healthcare & AI Innovators (ISHAI) is a registered non-profit organization established under the Trust Acts governed by the Government of Tamil Nadu, dedicated to advancing the fields of Healthcare and Artificial Intelligence (AI). Our primary focus is to serve as a catalyst for innovation, knowledge exchange, and collaboration, enabling the seamless integration of cutting-edge technologies into healthcare solutions that can improve lives and create sustainable societal impact."
+      buttonText="Learn more"
+    />
+  
+
 
       {/* Why Choose Us Section */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-15 py-16">
@@ -53,29 +52,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service */}
-      <ServicesSection />
+      {/* Products Section */}
+      <ProductsSection />
 
       {/* Membership Section */}
       <section>
         <Membership />
-      </section>
-
-      {/* About Us + Testimonials */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-15 pt-0 pb-12 flex flex-col lg:flex-row items-start gap-10">
-        <div className="w-full lg:w-1/2">
-          <AboutUs
-            title="About us"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
-            buttonText="Explore"
-          />
-        </div>
-        <div className="w-full lg:w-1/2">
-          <h2 className="text-3xl text-[#64BFB6] font-bold mb-1 pb-6">
-            What our customers say about us
-          </h2>
-          <Testimonials />
-        </div>
       </section>
 
       {/* Awards Section */}

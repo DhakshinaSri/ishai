@@ -18,12 +18,10 @@ export default function MembershipContent({ imageUrl }) {
           Membership
         </h2>
         <h3 className="text-lg md:text-xl font-semibold text-gray-600 mb-4">
-          Welcome to the Membership Program of our Learning Platform!
+          Welcome to the Membership Program of ISHAI!
         </h3>
         <p className="text-gray-600 mb-6">
-          We believe in building a strong network of institutions, industry
-          professionals, and students/job seekers who are passionate about
-          learning, career growth, and collaboration.
+          Join the International Society for Healthcare & AI Innovators (ISHAI) and be part of a global network shaping the future of healthcare and artificial intelligence. Our membership connects you with exclusive resources, global collaborations, industry experts, and career opportunities.
         </p>
         <Link
         to="/membership"

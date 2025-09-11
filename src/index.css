@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-:root {
+:root[data-theme='dark'] {
   font-family: Mulish, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -50,4 +50,18 @@ h1 {
 }
 .animate-partners-marquee {
   animation: partners-marquee 18s linear infinite;
+}
+
+.animate-spin-slow:hover {
+  animation-play-state: paused;
+}
+
+/* styles.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

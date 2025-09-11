@@ -9,10 +9,10 @@ export default function Navbar() {
 
   const menus = [
     { name: "Home", path: "/" },
-    { name: "Service", path: "/services" },
     { name: "About us", path: "/about" },
-    { name: "Contact us", path: "/contact" },
+    { name: "Service", path: "/services" },
     { name: "Membership", path: "/membership" },
+    { name: "Contact us", path: "/contact" },
   ];
 
   return (
